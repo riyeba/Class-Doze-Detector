@@ -18,7 +18,7 @@ Here is an example output of the system:
 - PyTorch  
 - MMAction2  
 - OpenCV  
-- Other dependencies listed in `requirements.txt`
+- torchvision torchaudio
 
 ## Usage
 
@@ -29,6 +29,10 @@ git clone https://github.com/your-username/your-repo.git
 2. Run the video sleep detection script:
 ```bash
 python student.py
+
+3. Install torchvision
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 
 
