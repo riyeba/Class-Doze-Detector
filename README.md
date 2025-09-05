@@ -10,6 +10,7 @@ The model processes classroom video streams (such as lecture recordings or live 
 
 Here is an example output of the system:
 
+![Results](sleepingImage.jpg)
 ![Results](Results.PNG)
 
 ## Requirements
