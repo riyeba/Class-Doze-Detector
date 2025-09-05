@@ -60,22 +60,40 @@ After installing the required packages and downloading the pre-trained model, yo
 
 ### Example: Run on a video file
 
+## Usage
+
+### Run on a video
+
 ```python
 from mmaction.apis import init_recognizer, inference_recognizer
+from operator import itemgetter
 
-# Paths to your config and trained model
-config_file = 'configs/recognition/tsn/tsn_r50_video.py'
-checkpoint_file = 'checkpoints/sleeping_student.pth'
+# Paths
+config_file = 'configs/recognition/tsn/tsn_sleeping.py'
+checkpoint_file = 'work_dirs/tsn_sleeping/best_acc_top1_epoch_1.pth'
+video_file = 'videos/classroom.mp4'
+label_file = 'label_map.txt'
 
-# Initialize the model
-model = init_recognizer(config_file, checkpoint_file, device='cuda:0')  # or 'cpu'
+# Initialize model
+model = init_recognizer(config_file, checkpoint_file, device='cpu')  # or 'cuda:0'
 
-# Run inference on a classroom video
-video_path = 'videos/classroom.mp4'
-result = inference_recognizer(model, video_path)
+# Run inference
+pred_result = inference_recognizer(model, video_file)
 
-# Print the result
-print("Prediction:", result)
+# Process results
+pred_scores = pred_result.pred_score.tolist()
+score_tuples = tuple(zip(range(len(pred_scores)), pred_scores))
+score_sorted = sorted(score_tuples, key=itemgetter(1), reverse=True)
+top5_label = score_sorted[:5]
+
+# Load label names
+with open(label_file) as f:
+    labels = [x.strip() for x in f.readlines()]
+
+# Display top predictions
+for idx, score in top5_label:
+    print(f"{labels[idx]}: {score:.4f}")
+
 
 
 
