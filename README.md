@@ -33,6 +33,11 @@ pip install mmcv-full==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/t
 git clone https://github.com/riyeba/Class-Doze-Detector.git
 ```
 
+## Pre-trained Model
+
+The trained **MMAction2** model checkpoint exported from Google Colab is available on Google Drive:  
+
+[Download from Google Drive](https://drive.google.com/drive/folders/1_9qtJNLwtWeY1eeqiwECoBQb_9T4ftUY?usp=drive_link)
 
 
 
