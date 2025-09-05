@@ -25,3 +25,10 @@ Here is an example output of the system:
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/your-repo.git
+
+2. Run the video sleep detection script:
+```bash
+python student.py
+
+
+
