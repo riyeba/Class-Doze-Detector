@@ -19,16 +19,15 @@ Here is an example output of the system:
 - PyTorch  
 - MMAction2  
 - OpenCV  
-- torchvision, torchaudio
+- torchvision
 
 ## Installation
 
-## Installation
-
-1. **Clone the repository:**
+1. **Install mmcv:**
 ```bash
-git clone https://github.com/riyeba/Class-Doze-Detector.git
-cd Class-Doze-Detector
+pip install mmcv-full==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1.0/index.html
+
+
 
 
 
