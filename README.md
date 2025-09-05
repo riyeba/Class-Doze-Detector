@@ -26,11 +26,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/riyeba/Class-Doze-Detector.git
 
-## Installation
 
-Clone the repository:
-bash
-git clone https://github.com/riyeba/Class-Doze-Detector.git
 
 
 
