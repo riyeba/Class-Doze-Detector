@@ -37,7 +37,7 @@ git clone https://github.com/riyeba/Class-Doze-Detector.git
 
 The trained **MMAction2** model checkpoint exported from Google Colab is available on Google Drive:  
 
-[Download from Google Drive](https://drive.google.com/drive/folders/1_9qtJNLwtWeY1eeqiwECoBQb_9T4ftUY?usp=drive_link)
+[Download from Google Drive](https://drive.google.com/drive/folders/1_9qtJNLwtWeY1eeqiwECoBQb_9T4ftUY?usp=sharing)
 
 
 
