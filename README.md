@@ -28,10 +28,11 @@ Here is an example output of the system:
 pip install mmcv-full==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1.0/index.html
 ```
 
-2. **Install mmcv:**
+2. **Clone the repository:**
 ```bash
-pip install mmcv-full==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1.0/index.html
+git clone https://github.com/riyeba/Class-Doze-Detector.git
 ```
+
 
 
 
