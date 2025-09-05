@@ -26,6 +26,8 @@ Here is an example output of the system:
 ```bash
 git clone https://github.com/riyeba/Class-Doze-Detector.git
 
+
 2. Clone the repository:
+
 git clone https://github.com/riyeba/Class-Doze-Detector.git
 
