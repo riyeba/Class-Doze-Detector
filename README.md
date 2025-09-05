@@ -27,6 +27,5 @@ Here is an example output of the system:
 git clone https://github.com/riyeba/Class-Doze-Detector.git
 
 2. Clone the repository:
-```bash
 git clone https://github.com/riyeba/Class-Doze-Detector.git
 
