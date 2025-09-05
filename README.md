@@ -94,7 +94,13 @@ with open(label_file) as f:
 for idx, score in top5_label:
     print(f"{labels[idx]}: {score:.4f}")
 
+```
 
+## Acknowledgements
+
+We would like to thank the developers of [MMAction2](https://github.com/open-mmlab/mmaction2) and [MMCV](https://github.com/open-mmlab/mmcv) for providing the powerful video understanding framework that made this project possible.  
+
+We also acknowledge the contributions of the open-source community and the tools used in this project, including PyTorch and OpenCV.
 
 
 
