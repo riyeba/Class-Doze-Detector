@@ -22,12 +22,16 @@ Here is an example output of the system:
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 ```bash
 git clone https://github.com/riyeba/Class-Doze-Detector.git
 
+## Installation
 
-2. Clone the repository:
-
+Clone the repository:
+bash
 git clone https://github.com/riyeba/Class-Doze-Detector.git
+
+
+
 
