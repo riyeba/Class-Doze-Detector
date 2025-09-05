@@ -25,4 +25,8 @@ Here is an example output of the system:
 1. Clone the repository:
 ```bash
 git clone https://github.com/riyeba/Class-Doze-Detector.git
-cd Class-Doze-Detector
+
+2. Clone the repository:
+```bash
+git clone https://github.com/riyeba/Class-Doze-Detector.git
+
